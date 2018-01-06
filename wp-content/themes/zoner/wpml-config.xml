@@ -1,0 +1,106 @@
+<wpml-config>
+    <admin-texts>
+		<key name="_zoner_country" />
+		<key name="_zoner_state" />
+		<key name="_zoner_address" />
+		<key name="_zoner_city" />
+		<key name="_zoner_zip" />
+		<key name="_zoner_lat" />
+		<key name="_zoner_lng" />
+		<key name="_zoner_condition" />
+		<key name="_zoner_payment" />
+		<key name="_zoner_price" />
+		<key name="_zoner_currency" />
+		<key name="_zoner_beds" />
+		<key name="_zoner_baths" />
+		<key name="_zoner_area" />
+		<key name="_zoner_garages" />
+		<key name="_zoner_allow_raiting" />
+		<key name="_zoner_is_featured" />
+		<key name="_zoner_gallery" />
+		<key name="_zoner_plans" />
+		<key name="_zoner_link_video" />
+		<key name="_zoner_views" />
+		<key name="_zoner_avg_rating" />
+		<key name="_zoner_agency_address" />
+		<key name="_zoner_agency_googlemapurl" />
+		<key name="_zoner_agency_email" />
+		<key name="_zoner_agency_facebookurl" />
+		<key name="_zoner_agency_twitterurl" />
+		<key name="_zoner_agency_googleplusurl" />
+		<key name="_zoner_agency_linkedinurl" />
+		<key name="_zoner_agency_pinteresturl" />
+		<key name="_zoner_agency_instagramurl" />
+		<key name="_zoner_agency_tel" />
+		<key name="_zoner_agency_mob" />
+		<key name="_zoner_agency_skype" />
+		<key name="_zoner_agency_line_img" />
+		<key name="_zoner_faq_helpful_yes" />
+		<key name="_zoner_faq_helpful_no" />
+        <key name="zoner-searchbox-submit"/>
+    </admin-texts>   
+	<custom-types>
+		<custom-type translate="1">property</custom-type>
+		<custom-type translate="1">agency</custom-type>
+		<custom-type translate="1">faq</custom-type>
+		<custom-type translate="1">timeline</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">property_status</taxonomy>
+		<taxonomy translate="1">property_type</taxonomy>
+		<taxonomy translate="1">property_features</taxonomy>
+		<taxonomy translate="1">property_cat</taxonomy>
+		<taxonomy translate="1">property_tag</taxonomy>
+		<taxonomy translate="1">property_city</taxonomy>
+		<taxonomy translate="1">faq_tax</taxonomy>
+		<taxonomy translate="1">timeline_tax</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="copy">_zoner_is_paid</custom-field>
+		<custom-field action="copy">_zoner_country</custom-field>
+		<custom-field action="copy">_zoner_state</custom-field>
+		<custom-field action="translate">_zoner_address</custom-field>
+		<custom-field action="translate">_zoner_district</custom-field>
+		<custom-field action="copy">_zoner_zip</custom-field>
+		<custom-field action="copy">_zoner_geo_location</custom-field>
+		<custom-field action="copy">_zoner_lat</custom-field>
+		<custom-field action="copy">_zoner_lng</custom-field>
+		<custom-field action="copy">_zoner_show_on_map</custom-field>
+		<custom-field action="copy">_zoner_reference</custom-field>
+		<custom-field action="copy">_zoner_condition</custom-field>
+		<custom-field action="copy">_zoner_payment</custom-field>
+		<custom-field action="copy">_zoner_price</custom-field>
+		<custom-field action="copy">_zoner_price_format</custom-field>
+		<custom-field action="copy">_zoner_currency</custom-field>
+		<custom-field action="copy">_zoner_rooms</custom-field>
+		<custom-field action="copy">_zoner_beds</custom-field>
+		<custom-field action="copy">_zoner_baths</custom-field>
+		<custom-field action="copy">_zoner_area</custom-field>
+		<custom-field action="copy">_zoner_area_unit</custom-field>
+		<custom-field action="copy">_zoner_garages</custom-field>
+		<custom-field action="copy">_zoner_allow_raiting</custom-field>
+		<custom-field action="copy">_zoner_is_featured</custom-field>
+		<custom-field action="copy">_zoner_is_featured</custom-field>
+		<custom-field action="copy">_zoner_files</custom-field>
+		<custom-field action="copy">_zoner_gallery</custom-field>
+		<custom-field action="copy">_zoner_plans</custom-field>
+		<custom-field action="copy">_zoner_link_video</custom-field>
+		<custom-field action="copy">_zoner_avg_rating</custom-field>
+		<custom-field action="translate">_zoner_agency_address</custom-field>
+		<custom-field action="copy">_zoner_agency_googlemapurl</custom-field>
+		<custom-field action="copy">_zoner_agency_email</custom-field>
+		<custom-field action="copy">_zoner_agency_facebookurl</custom-field>
+		<custom-field action="copy">_zoner_agency_twitterurl</custom-field>
+		<custom-field action="copy">_zoner_agency_googleplusurl</custom-field>
+		<custom-field action="copy">_zoner_agency_linkedinurl</custom-field>
+		<custom-field action="copy">_zoner_agency_pinteresturl</custom-field>
+		<custom-field action="copy">_zoner_agency_instagramurl</custom-field>
+		<custom-field action="copy">_zoner_agency_tel</custom-field>
+		<custom-field action="copy">_zoner_agency_mob</custom-field>
+		<custom-field action="copy">_zoner_agency_skype</custom-field>
+		<custom-field action="copy">_zoner_agency_line_img</custom-field>
+		<custom-field action="copy">_zoner_faq_helpful_yes</custom-field>
+		<custom-field action="copy">_zoner_faq_helpful_no</custom-field>
+		<custom-field action="ignore">_zoner_views</custom-field>
+    </custom-fields>
+</wpml-config>

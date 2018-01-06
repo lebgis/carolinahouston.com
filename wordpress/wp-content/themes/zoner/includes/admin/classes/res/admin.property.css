@@ -1,0 +1,163 @@
+#zoner-fields-bulk.inline-edit-col label, 
+#zoner-fields.inline-edit-col {
+  clear: left;
+}
+.inline-edit-property.quick-edit-row .inline-edit-col-center, .inline-edit-property.quick-edit-row .inline-edit-col-right {
+  float: right!important;
+}
+.inline-edit-property.quick-edit-row .inline-edit-col-right {
+	min-height:400px;
+}
+
+table.wp-list-table .column-thumb { 
+  width: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table.wp-list-table .column-name {
+  width: 15%;
+}
+
+table.wp-list-table .column-date {
+	width:100px;
+}
+
+table.wp-list-table .column-author {
+	width:120px;
+}
+
+table.wp-list-table .column-property_type, 
+table.wp-list-table .column-property_status {
+  text-align: center;
+  white-space: nowrap;
+  width: 100px;
+}
+
+
+table.wp-list-table .column-price {
+  white-space: nowrap;
+  width: 100px;
+}
+
+table.wp-list-table .column-featured, 
+table.wp-list-table .column-property-pending,
+table.wp-list-table .column-paid {
+  white-space: nowrap;
+  width: 30px;
+}
+
+table.wp-list-table .column-property-pending a span.fa.fa-clock-o {
+  color:#444;
+}
+
+
+table.wp-list-table .column-property_type a.property_type  {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+table.wp-list-table .column-property_status a.property_status {
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  font-size: 12px;
+  padding: 6px 9px;
+  vertical-align:middle;
+  z-index: 1;
+  position:relative;
+  display:inline-block;
+}
+
+/*Membership & Invoice*/
+table.wp-list-table .column-pack_unlim_properties,
+table.wp-list-table .column-pack_unlim_featured,
+table.wp-list-table .column-pack_available,
+table.wp-list-table .column-pack_agency_profile {
+  white-space: nowrap;
+  width: 40px;
+}
+
+table.wp-list-table td.column-pack_unlim_properties .fa-check-circle-o,
+table.wp-list-table td.column-pack_unlim_featured   .fa-check-circle-o,
+table.wp-list-table td.column-pack_available  .fa-check-circle-o,
+table.wp-list-table td.column-pack_agency_profile  .fa-check-circle-o {
+  color:#1396e2;
+}
+
+table.wp-list-table .column-pack_price {
+  white-space: nowrap;
+  width: 120px;
+}
+
+table.wp-list-table .column-billing_period {
+  width: 200px;
+}
+
+table.wp-list-table thead tr th.column-property_cat,
+table.wp-list-table thead tr th.column-property_tag {
+  width:100px;
+}
+		
+@media only screen and (max-width: 1720px) {
+	table.wp-list-table thead tr th.column-property_cat,
+	table.wp-list-table thead tr th.column-property_tag,
+	table.wp-list-table thead tr th.column-property_status,
+	table.wp-list-table thead tr th.column-property_type	{
+		display:none;
+	}
+	
+	table.wp-list-table tr td.property_cat,
+	table.wp-list-table tr td.property_tag,
+	table.wp-list-table tr td.property_status,
+	table.wp-list-table tr td.property_type	{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 1108px) {
+	able.wp-list-table thead tr th.column-date,
+	table.wp-list-table thead tr th.column-author {
+		display:none;
+	}
+	
+	table.wp-list-table tr td.date.column-date,
+	table.wp-list-table tr td.author.column-author {
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+	table.wp-list-table tr.type-property .column-name {
+		overflow:visible;
+	}
+	.post-type-property .wp-list-table .toggle-row {
+		top: -28px;
+	}
+	
+	.post-type-property .wp-list-table .column-thumb {
+		display: none;
+		padding-bottom: 0;
+		text-align: left;
+	}
+
+	table.wp-list-table .column-property_type, 
+	table.wp-list-table .column-property_status {
+		text-align:left;
+	}
+	
+	table.wp-list-table .column-property_cat  a,
+	table.wp-list-table .column-property_tag  a,
+	table.wp-list-table .column-property_type a.property_type {
+		display: inline-block;
+		padding: 0 10px 0 0;
+		text-align: left;
+		width: auto;
+	}
+}

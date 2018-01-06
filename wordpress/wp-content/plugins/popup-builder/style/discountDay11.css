@@ -1,0 +1,28 @@
+.sg-info-panel-wrapper-day11 {
+	height: 175px;
+	position: relative;
+	width: 100%;
+	background-image: url('../img/day11Bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	line-height: 1.231;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.sg-dont-show-again-day11 {
+	position: absolute;
+	bottom: 10px;
+	right: 12px;
+	cursor: pointer
+}
+
+.sgpb-visit-web-site-day11 {
+	position: absolute;
+	bottom: 30px;
+	right: 15px !important;
+	cursor: pointer
+}
